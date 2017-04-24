@@ -1,8 +1,10 @@
-﻿namespace Net.Chdk.Model.CameraModel
+﻿using System;
+
+namespace Net.Chdk.Model.CameraModel
 {
     public sealed class CameraModelInfo
     {
-        public string Version { get; set; }
+        public Version Version { get; set; }
         public string[] Names { get; set; }
     }
 }
